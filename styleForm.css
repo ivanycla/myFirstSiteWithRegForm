@@ -1,0 +1,116 @@
+body {  
+    margin: 0;  
+    padding: 0;  
+    font-family: 'Montserrat', sans-serif;  
+    background-color: #f0f4f8;   
+    display: flex;  
+    justify-content: center;   
+    align-items: center;   
+    height: 100%;   
+}  
+.textHigh{
+    color: #FFD912;
+}
+#formContainer {  
+    background: white;   
+    padding: 30px;  
+    border-radius: 10px;  
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);   
+    max-width: 700px;  
+    width: 100%;   
+}  
+
+h1 {  
+    font-weight: 300;   
+    text-align: center;  
+    margin-bottom: 20px;   
+}  
+
+label {  
+    margin: 10px 0 5px;   
+    display: block;   
+    color: #333;   
+}  
+
+.inputField {  
+    width: 100%;   
+    padding: 10px;   
+    border: 1px solid #ccc;   
+    border-radius: 5px;   
+    margin-bottom: 15px;   
+}  
+
+.submitButton, .changeButton, .additionalButton {  
+    background: #FFD912;  
+    color: white;   
+    border: none;   
+    border-radius: 5px;   
+    padding: 10px 15px;   
+    cursor: pointer;   
+    transition: background-color 0.3s;   
+    margin-bottom: 32px;  
+}  
+
+.changeButton {  
+    margin-top: 30px;  
+}  
+
+.changeButton, .additionalButton {   
+    display: flex;  
+    flex-direction: row;   
+}  
+
+.submitButton:hover, .changeButton:hover, .additionalButton:hover {  
+    background-color: #45a049;   
+}  
+
+.fileInput {  
+    margin-top: 30px;  
+    padding-left: 30px;  
+}  
+
+.sexLabel {  
+    display: block;  
+    margin-bottom: 8px;  
+}  
+
+.radioGroup {  
+    display: flex;  
+    align-items: center;  
+}  
+
+.radioInput {  
+    margin-right: 8px;  
+}  
+
+.radioLabel {  
+    margin-right: 16px;  
+    font-family: Montserrat, sans-serif;  
+    font-size: 16px;  
+    color: #333;  
+    font-weight: bold;  
+}  
+
+form {  
+    margin-top: 20px;  
+    display: flex;  
+    flex-direction: column;  
+    align-items: flex-start;  
+}  
+
+.textareaField {  
+    width: 100%;   
+    padding: 10px;   
+    border: 1px solid #ccc;   
+    border-radius: 5px;   
+    margin-bottom: 30px;   
+    resize: vertical;   
+}  
+
+.goalSelect {  
+    width: 100%;   
+    padding: 10px;   
+    border: 1px solid #ccc;   
+    border-radius: 5px;   
+    margin-bottom: 30px;   
+}

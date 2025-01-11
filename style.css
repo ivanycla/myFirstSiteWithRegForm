@@ -1,0 +1,347 @@
+
+body{
+    background-image: url(./583726.jpg);
+    background-color: black;
+}
+header {  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+    padding: 10px;  
+}  
+
+.navmenu ul {  
+    display: flex;  
+    list-style: none;  
+    padding: 0;  
+    margin: 0;  
+}  
+
+.navmenu ul li {  
+    margin-right: 20px;  
+}  
+
+.navmenu ul li a {  
+    text-decoration: none;  
+    color: #FFFFFF;  
+}  
+
+.navmenu ul li a:hover {
+    color: #E9B52E;
+    text-decoration: underline;
+}
+
+.btnEnter {  
+    padding: 10px 20px;  
+    background-color: #007bff;  
+    color: white;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    border-radius: 22px;
+}  
+
+.btnEnter:hover {  
+    background-color: #0056b3;  
+}  
+
+.li {  
+    font-family: Montserrat, sans-serif;    
+    font-size: 16px;  
+    font-weight: 700;  
+    line-height: 19.5px;  
+    text-align: left;  
+}
+.donwload{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+line-height: 19.5px;
+color: #FF9901;
+}
+.btnEnter{
+    width: Fixed (103px)px;
+height: Fixed (41px)px;
+gap: 10px;
+
+background: #E9B52E;
+border-radius: 50%;
+}
+.btnEnter:hover{
+    background: #FEFBF3;
+color:  #E9B52E;
+;
+}
+
+.title{
+    font-family: Montserrat;
+font-size: 72px;
+font-weight: 700;
+line-height: 87.77px;
+text-align: center;
+color: #FFFFFF;
+
+}
+.textCreateAcc{
+font-family: Montserrat;
+font-size: 26px;
+font-weight: 600;
+text-align: center;
+padding: 30px 0 100px 0  ;
+color: #FFFFFF;
+}
+.highlight{
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 600;
+    color: #FC9700;
+    
+}
+.buttons {  
+    display: flex;  
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;   
+    margin: 0 auto;  
+      
+}  
+
+.button-row {  
+    display: flex;  
+    gap: 10px;    
+    margin-bottom: 15px;    
+}  
+
+.createAcc {  
+    background: linear-gradient(112.39deg, #FEB81C 35.41%, #FF9800 59.98%);  
+    box-shadow: 0px 0px 10px 0px #FF9800;  
+    border-radius: 22px;  
+    width: 270px;  
+    height: 66px;  
+    padding: 10px;  
+    font-family: Montserrat, sans-serif;  
+    font-size: 14px;  
+    font-weight: 900;  
+    line-height: 19.5px;  
+    color: #FEFBF3;  
+    display: flex;  
+    align-items: center;  
+    justify-content: center;  
+    margin-bottom: 108px;
+}  
+.createAcc:hover,.domwlodIos:hover,.donwloadAndroid:hover{
+    background: #FEFBF3;
+    color: #FC9700;
+}
+.domwlodIos{
+    margin-right: 30px;
+}
+.domwlodIos,  
+.donwloadAndroid {  
+    width: 120px; 
+    height: 44px;  
+    padding: 10px 5px;    
+    border-radius: 22px;  
+    background: linear-gradient(112.39deg, #FEB81C 35.41%, #FF9800 59.98%);  
+    color: #FEFBF3;   
+    display: flex;  
+    align-items: center;  
+    justify-content: center;  
+    border: none;  
+}
+
+.socialNetwork{
+    display :flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+.vk{
+    padding-right:10px ;
+}
+.insta{
+    padding-right: 10px;
+}
+.secondTitle{
+    font-family: Montserrat;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 87.77px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 22.4px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.table th {
+    color: #f9f9f9;
+    background: #FFCC00;
+    font-family: Roboto;
+font-size: 20px;
+font-weight: 700;
+line-height: 28.6px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table tr:hover {
+    background-color: #ddd;
+}
+.table tr{
+    background-color: #f9f9f9;
+}
+
+ .table td {
+    padding: 12px;
+    text-align: left;
+}
+.table th{
+    padding: 12px;
+    text-align: center;
+}
+.thirdTitle{
+    font-family: Montserrat;
+font-size: 72px;
+font-weight: 700;
+line-height: 87.77px;
+text-align: center;
+color: #FFFFFF;
+
+
+}
+.info{
+    font-family: Montserrat;
+font-size: 36px;
+font-weight: 500;
+line-height: 43.88px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
+
+
+}
+
+
+
+
+@media (max-width: 768px) {  
+
+    body {  
+        background-color: black; /* Keep background */  
+    }  
+
+    header {  
+        flex-direction: column;  /* Stack header items vertically */  
+        align-items: center;  /* Center items horizontally */  /* Changed from flex-start to center */  
+        padding: 10px;  /* Adjust padding */  
+    }  
+
+    .navmenu {  
+        display: flex;  
+        justify-content: center; /* Center horizontally */  
+        align-items: center; /* Center vertically within parent, if the navmenu height is defined */  
+        height: 100vh; /* Full height to center vertically on screen */  
+    }  
+
+    .navmenu ul {  
+        display: flex;  
+        flex-direction: column; /* Stack navigation items vertically */  
+        align-items: center; /* Center items horizontally */  
+        width: 100%; /* Full width for the menu */  
+    }  
+
+    .navmenu ul li {  
+        margin-right: 0;  /* Remove margin since items stack */  
+        margin-bottom: 10px; /* Space below each item */  
+    }  
+
+    .btnEnter {  
+        width: auto; /* Set to auto for natural sizing */  
+        height: auto; /* Automatic height */  
+        padding: 10px; /* Ensure touch-friendly padding */  
+        border-radius: 22px; /* Consistent border radius */  
+        margin: 10px 0; /* Margin to separate buttons vertically */  
+    }  
+
+    .title {  
+        font-size: 48px; /* Responsive title size */  
+        line-height: 56px; /* Adjust line height */  
+        padding: 20px 0; /* Add top/bottom padding */  
+    }  
+
+    .textCreateAcc {  
+        font-size: 20px; /* Decrease font size */  
+        padding: 20px 0; /* Adjust padding for spacing */  
+    }  
+
+    .buttons {  
+        flex-direction: column; /* Stack buttons vertically */  
+        align-items: center; /* Center align items */  
+    }  
+
+    .button-row {  
+        flex-direction: column; /* Stack rows for buttons */  
+        gap: 5px; /* Reduce gap between rows */  
+    }  
+
+    .createAcc {  
+        width: auto; /* Use auto width */  
+        padding: 10px; /* Maintain consistent padding */  
+        margin: 10px 0; /* Add margin for spacing */  
+    }  
+
+    .domwlodIos, .donwloadAndroid {  
+        width: auto; /* Auto width for download buttons */  
+        margin-right: 0; /* Remove right margin */  
+        margin-bottom: 10px; /* Space between buttons */  
+        padding: 10px 5px; /* Maintain padding for touch area */  
+    }  
+
+    .socialNetwork {  
+        justify-content: center; /* Center social icons */  
+    }  
+
+    .info {  
+        font-size: 24px; /* Responsive font size */  
+        line-height: 30px; /* Adjust line height */  
+    }  
+
+    .thirdTitle, .secondTitle {  
+        font-size: 48px; /* Reduce size for better fit */  
+        line-height: 56px; /* Adjust line height */  
+    }  
+
+    .table {  
+        width: 100%; /* Full width for table */  
+        font-size: 14px; /* Smaller font size for tables */  
+    }  
+
+    .table th, .table td {  
+        padding: 10px; /* Adjust padding for table cells */  
+    }  
+}

@@ -16,3 +16,29 @@ document.addEventListener("DOMContentLoaded", function() {
         subscribeSection.scrollIntoView({ behavior: 'smooth' });
     };
 });
+ const btnEnter=document.getElementById("btnEnter");
+
+
+ btnEnter.onclick=function(){
+    window.location.href = "justInfo.html";
+ }
+
+
+ const linkDonwload=document.getElementById("linkDonwload");
+  
+
+ linkDonwload.onclick=function(){
+    window.location.href = "justInfo.html";
+ }
+
+ const donwloadAndroid=document.getElementById("donwloadAndroid");
+
+ donwloadAndroid.onclick=function(){
+    window.location.href = "justInfo.html";
+ }
+
+ const domwlodIos=document.getElementById("domwlodIos");
+
+ domwlodIos.onclick=function(){
+    window.location.href = "justInfo.html";
+ }

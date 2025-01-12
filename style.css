@@ -10,6 +10,9 @@ header {
     padding: 10px;  
 }  
 
+    .logo{
+
+    }
 .navmenu ul {  
     display: flex;  
     list-style: none;  
@@ -32,14 +35,16 @@ header {
 }
 
 .btnEnter {  
-    padding: 10px 20px;  
-    background-color: #007bff;  
-    color: white;  
-    border: none;  
-    border-radius: 5px;  
-    cursor: pointer;  
-    border-radius: 22px;
-}  
+    width: 120px; 
+    height: 44px;  
+    padding: 10px 5px;    
+    border-radius: 22px;  
+    background: linear-gradient(112.39deg, #FEB81C 35.41%, #FF9800 59.98%);  
+    color: #FEFBF3;   
+    box-shadow: 0px 0px 10px 0px #FF9800; 
+    margin-right: 500px;
+}
+
 
 .btnEnter:hover {  
     background-color: #0056b3;  
@@ -59,14 +64,7 @@ font-weight: 700;
 line-height: 19.5px;
 color: #FF9901;
 }
-.btnEnter{
-    width: Fixed (103px)px;
-height: Fixed (41px)px;
-gap: 10px;
 
-background: #E9B52E;
-border-radius: 50%;
-}
 .btnEnter:hover{
     background: #FEFBF3;
 color:  #E9B52E;
@@ -250,10 +248,11 @@ color: #FFFFFF;
 
 
 @media (max-width: 768px) {  
+    
     body {  
         background-color: black;  
     }  
-
+ 
     header {  
         flex-direction: column;  
         align-items: center;  
@@ -264,7 +263,9 @@ color: #FFFFFF;
         display: flex;  
         justify-content: center;  
         align-items: center;  
-        height: 100vh;  
+        height: 100vh;
+        margin-bottom: -70px;
+        margin-top: -150px  
     }  
 
     .navmenu ul {  
@@ -281,7 +282,7 @@ color: #FFFFFF;
 
     .btnEnter {  
         width: auto;  
-        height: auto;  
+         
         padding: 10px;  
         border-radius: 22px;  
         margin: 10px 0;  
